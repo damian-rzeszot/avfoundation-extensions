@@ -47,7 +47,7 @@ public class AVPlayerView: UIView {
 
     open var player: AVPlayer? {
         set(value) {
-            playerLayer.player = player
+            playerLayer.player = value
         }
         get {
             return playerLayer.player
